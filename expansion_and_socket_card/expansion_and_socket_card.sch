@@ -1,0 +1,796 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "lun. 30 mars 2015"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 10550 2000 0    60   ~ 0
+IRQ_SHIELD
+Text Label 10550 1900 0    60   ~ 0
+CS_SHIELD
+Text Label 10550 1800 0    60   ~ 0
+MOSI
+Text Label 10550 1700 0    60   ~ 0
+MISO
+Text Label 10550 1600 0    60   ~ 0
+SCK
+NoConn ~ 9400 1600
+Text Notes 10850 1000 0    60   ~ 0
+Holes
+Text Notes 8550 750  0    60   ~ 0
+Shield for Arduino that uses\nthe same pin disposition\nlike "Uno" board Rev 3.
+$Comp
+L Connector_Generic:Conn_01x08 P1
+U 1 1 56D70129
+P 9600 1900
+F 0 "P1" H 9600 2350 50  0000 C CNN
+F 1 "Power" V 9700 1900 50  0000 C CNN
+F 2 "Socket_Arduino_Uno:Socket_Strip_Arduino_1x08" V 9750 1900 20  0000 C CNN
+F 3 "" H 9600 1900 50  0000 C CNN
+	1    9600 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR01
+U 1 1 56D70538
+P 9150 1450
+F 0 "#PWR01" H 9150 1300 50  0001 C CNN
+F 1 "+3.3V" V 9150 1700 50  0000 C CNN
+F 2 "" H 9150 1450 50  0000 C CNN
+F 3 "" H 9150 1450 50  0000 C CNN
+	1    9150 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR02
+U 1 1 56D707BB
+P 9050 1350
+F 0 "#PWR02" H 9050 1200 50  0001 C CNN
+F 1 "+5V" V 9050 1550 50  0000 C CNN
+F 2 "" H 9050 1350 50  0000 C CNN
+F 3 "" H 9050 1350 50  0000 C CNN
+	1    9050 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 56D70CC2
+P 9300 3150
+F 0 "#PWR03" H 9300 2900 50  0001 C CNN
+F 1 "GND" H 9300 3000 50  0000 C CNN
+F 2 "" H 9300 3150 50  0000 C CNN
+F 3 "" H 9300 3150 50  0000 C CNN
+	1    9300 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 56D70CFF
+P 10300 3150
+F 0 "#PWR04" H 10300 2900 50  0001 C CNN
+F 1 "GND" H 10300 3000 50  0000 C CNN
+F 2 "" H 10300 3150 50  0000 C CNN
+F 3 "" H 10300 3150 50  0000 C CNN
+	1    10300 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x06 P2
+U 1 1 56D70DD8
+P 9600 2700
+F 0 "P2" H 9600 2300 50  0000 C CNN
+F 1 "Analog" V 9700 2700 50  0000 C CNN
+F 2 "Socket_Arduino_Uno:Socket_Strip_Arduino_1x06" V 9750 2750 20  0000 C CNN
+F 3 "" H 9600 2700 50  0000 C CNN
+	1    9600 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 P5
+U 1 1 56D71177
+P 10800 650
+F 0 "P5" V 10900 650 50  0000 C CNN
+F 1 "CONN_01X01" V 10900 650 50  0001 C CNN
+F 2 "Socket_Arduino_Uno:Arduino_1pin" H 10721 724 20  0000 C CNN
+F 3 "" H 10800 650 50  0000 C CNN
+	1    10800 650 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 P6
+U 1 1 56D71274
+P 10900 650
+F 0 "P6" V 11000 650 50  0000 C CNN
+F 1 "CONN_01X01" V 11000 650 50  0001 C CNN
+F 2 "Socket_Arduino_Uno:Arduino_1pin" H 10900 650 20  0001 C CNN
+F 3 "" H 10900 650 50  0000 C CNN
+	1    10900 650 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 P7
+U 1 1 56D712A8
+P 11000 650
+F 0 "P7" V 11100 650 50  0000 C CNN
+F 1 "CONN_01X01" V 11100 650 50  0001 C CNN
+F 2 "Socket_Arduino_Uno:Arduino_1pin" V 11000 650 20  0001 C CNN
+F 3 "" H 11000 650 50  0000 C CNN
+	1    11000 650 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 P8
+U 1 1 56D712DB
+P 11100 650
+F 0 "P8" V 11200 650 50  0000 C CNN
+F 1 "CONN_01X01" V 11200 650 50  0001 C CNN
+F 2 "Socket_Arduino_Uno:Arduino_1pin" H 11024 572 20  0000 C CNN
+F 3 "" H 11100 650 50  0000 C CNN
+	1    11100 650 
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 10800 850 
+NoConn ~ 10900 850 
+NoConn ~ 11000 850 
+NoConn ~ 11100 850 
+$Comp
+L Connector_Generic:Conn_01x08 P4
+U 1 1 56D7164F
+P 10000 2600
+F 0 "P4" H 10000 2100 50  0000 C CNN
+F 1 "Digital" V 10100 2600 50  0000 C CNN
+F 2 "Socket_Arduino_Uno:Socket_Strip_Arduino_1x08" V 10150 2550 20  0000 C CNN
+F 3 "" H 10000 2600 50  0000 C CNN
+	1    10000 2600
+	-1   0    0    -1  
+$EndComp
+Wire Notes Line
+	8525 825  9925 825 
+Wire Notes Line
+	9925 825  9925 475 
+Wire Wire Line
+	9350 1450 9350 1700
+Wire Wire Line
+	9350 1700 9400 1700
+Wire Wire Line
+	9400 1900 9150 1900
+Wire Wire Line
+	9400 2000 9050 2000
+Wire Wire Line
+	9400 2100 9300 2100
+Wire Wire Line
+	9400 2200 9300 2200
+Connection ~ 9300 2200
+Wire Wire Line
+	9050 2000 9050 1350
+Wire Wire Line
+	9150 1900 9150 1450
+$Comp
+L Connector_Generic:Conn_01x10 P3
+U 1 1 56D721E0
+P 10000 1600
+F 0 "P3" H 10000 2150 50  0000 C CNN
+F 1 "Digital" V 10100 1600 50  0000 C CNN
+F 2 "Socket_Arduino_Uno:Socket_Strip_Arduino_1x10" V 10150 1600 20  0000 C CNN
+F 3 "" H 10000 1600 50  0000 C CNN
+	1    10000 1600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 2000 10550 2000
+Wire Wire Line
+	10200 1900 10550 1900
+Wire Wire Line
+	10200 1800 10550 1800
+Wire Wire Line
+	10200 1700 10550 1700
+Wire Wire Line
+	10200 1600 10550 1600
+Wire Wire Line
+	10200 1500 10300 1500
+Wire Wire Line
+	10300 1500 10300 3150
+Wire Wire Line
+	9300 2100 9300 2200
+Wire Wire Line
+	9300 2200 9300 3150
+Wire Notes Line
+	8500 500  8500 3450
+Wire Notes Line
+	8500 3450 11200 3450
+Text Notes 9700 1600 0    60   ~ 0
+1
+Wire Notes Line
+	11200 1000 10700 1000
+Wire Notes Line
+	10700 1000 10700 500 
+$Comp
+L ds_card_extender:DS_Card_socket J1
+U 1 1 5FC1B90D
+P 6000 3350
+F 0 "J1" H 6000 4515 50  0000 C CNN
+F 1 "DS_Card_socket" H 6000 4424 50  0000 C CNN
+F 2 "ds_card_extender:3ds_card_reader" H 6000 3350 50  0001 C CNN
+F 3 "DOCUMENTATION" H 6000 3350 50  0001 C CNN
+	1    6000 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_2Rows-17Pins J2
+U 1 1 5FC1CBFB
+P 2150 2300
+F 0 "J2" H 2200 2917 50  0000 C CNN
+F 1 "Conn_2Rows-17Pins" H 2200 2826 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x09_P2.54mm_Vertical" H 2150 2300 50  0001 C CNN
+F 3 "~" H 2150 2300 50  0001 C CNN
+	1    2150 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_2Rows-17Pins J3
+U 1 1 5FC1D875
+P 2150 3650
+F 0 "J3" H 2200 4267 50  0000 C CNN
+F 1 "Conn_2Rows-17Pins" H 2200 4176 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x09_P2.54mm_Vertical" H 2150 3650 50  0001 C CNN
+F 3 "~" H 2150 3650 50  0001 C CNN
+	1    2150 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J4
+U 1 1 5FC2C640
+P 7100 2550
+F 0 "J4" H 7180 2542 50  0000 L CNN
+F 1 "Conn_01x02" H 7180 2451 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7100 2550 50  0001 C CNN
+F 3 "~" H 7100 2550 50  0001 C CNN
+	1    7100 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 2550 6900 2550
+Wire Wire Line
+	6750 2650 6900 2650
+$Comp
+L power:GND #PWR05
+U 1 1 5FC2EE37
+P 6850 4300
+F 0 "#PWR05" H 6850 4050 50  0001 C CNN
+F 1 "GND" H 6855 4127 50  0000 C CNN
+F 2 "" H 6850 4300 50  0001 C CNN
+F 3 "" H 6850 4300 50  0001 C CNN
+	1    6850 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 4150 6850 4150
+Wire Wire Line
+	6850 4150 6850 4300
+Wire Wire Line
+	1950 3250 1800 3250
+Wire Wire Line
+	1800 3250 1800 1900
+Wire Wire Line
+	1800 1900 1950 1900
+Wire Wire Line
+	1950 3350 1700 3350
+Wire Wire Line
+	1700 3350 1700 2000
+Wire Wire Line
+	1700 2000 1950 2000
+Wire Wire Line
+	1950 3450 1600 3450
+Wire Wire Line
+	1600 3450 1600 2100
+Wire Wire Line
+	1600 2100 1950 2100
+$Comp
+L Jumper:Jumper_3_Bridged12 JP4
+U 1 1 5FC41988
+P 2150 5500
+F 0 "JP4" H 2150 5704 50  0000 C CNN
+F 1 "Jumper_3_Bridged12" H 2150 5613 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2150 5500 50  0001 C CNN
+F 3 "~" H 2150 5500 50  0001 C CNN
+	1    2150 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 3550 1500 3550
+Wire Wire Line
+	1500 3550 1500 2200
+Wire Wire Line
+	1500 2200 1950 2200
+Wire Wire Line
+	1950 3650 1400 3650
+Wire Wire Line
+	1400 3650 1400 2300
+Wire Wire Line
+	1400 2300 1950 2300
+Wire Wire Line
+	1950 3750 1300 3750
+Wire Wire Line
+	1300 3750 1300 2400
+Wire Wire Line
+	1300 2400 1950 2400
+Wire Wire Line
+	1950 3850 1200 3850
+Wire Wire Line
+	1200 3850 1200 2500
+Wire Wire Line
+	1200 2500 1950 2500
+Wire Wire Line
+	1950 3950 1100 3950
+Wire Wire Line
+	1100 3950 1100 2600
+Wire Wire Line
+	1100 2600 1950 2600
+Wire Wire Line
+	1950 4050 1000 4050
+Wire Wire Line
+	1000 4050 1000 2700
+Wire Wire Line
+	1000 2700 1950 2700
+Wire Wire Line
+	2450 3250 2650 3250
+Wire Wire Line
+	2650 3250 2650 1900
+Wire Wire Line
+	2650 1900 2450 1900
+Wire Wire Line
+	2450 3350 2750 3350
+Wire Wire Line
+	2750 3350 2750 2000
+Wire Wire Line
+	2750 2000 2450 2000
+Wire Wire Line
+	2450 3450 2850 3450
+Wire Wire Line
+	2850 3450 2850 2100
+Wire Wire Line
+	2850 2100 2450 2100
+Wire Wire Line
+	2450 3550 2950 3550
+Wire Wire Line
+	2950 3550 2950 2200
+Wire Wire Line
+	2950 2200 2450 2200
+Wire Wire Line
+	2450 3650 3050 3650
+Wire Wire Line
+	3050 3650 3050 2300
+Wire Wire Line
+	3050 2300 2450 2300
+Wire Wire Line
+	2450 3750 3150 3750
+Wire Wire Line
+	3150 3750 3150 2400
+Wire Wire Line
+	3150 2400 2450 2400
+Wire Wire Line
+	2450 3850 3250 3850
+Wire Wire Line
+	3250 3850 3250 2500
+Wire Wire Line
+	3250 2500 2450 2500
+Wire Wire Line
+	2450 3950 3350 3950
+Wire Wire Line
+	3350 3950 3350 2600
+Wire Wire Line
+	3350 2600 2450 2600
+Wire Wire Line
+	5250 2550 5150 2550
+Wire Wire Line
+	5150 2550 5150 600 
+Wire Wire Line
+	5150 600  1800 600 
+Wire Wire Line
+	1800 600  1800 1900
+Connection ~ 1800 1900
+Wire Wire Line
+	5250 2650 5050 2650
+Wire Wire Line
+	5050 2650 5050 650 
+Wire Wire Line
+	5050 650  2650 650 
+Wire Wire Line
+	2650 650  2650 1900
+Connection ~ 2650 1900
+Wire Wire Line
+	5250 2750 4950 2750
+Wire Wire Line
+	4950 2750 4950 700 
+Wire Wire Line
+	4950 700  1700 700 
+Wire Wire Line
+	1700 700  1700 2000
+Connection ~ 1700 2000
+Wire Wire Line
+	5250 2850 4850 2850
+Wire Wire Line
+	4850 2850 4850 750 
+Wire Wire Line
+	4850 750  2750 750 
+Wire Wire Line
+	2750 750  2750 2000
+Connection ~ 2750 2000
+Wire Wire Line
+	5250 2950 4750 2950
+Wire Wire Line
+	4750 2950 4750 800 
+Wire Wire Line
+	4750 800  1600 800 
+Wire Wire Line
+	1600 800  1600 2100
+Connection ~ 1600 2100
+Wire Wire Line
+	2850 2100 2850 1550
+Connection ~ 2850 2100
+Text Label 2850 1550 3    50   ~ 0
+ECS_HOST
+Text Label 4750 3050 0    50   ~ 0
+ECS_CARD
+Wire Wire Line
+	5250 3050 4750 3050
+Wire Wire Line
+	1500 1550 1500 2200
+Connection ~ 1500 2200
+Wire Wire Line
+	5250 3150 4750 3150
+Wire Wire Line
+	5250 3250 4450 3250
+Wire Wire Line
+	4450 3250 4450 950 
+Wire Wire Line
+	4450 950  2950 950 
+Wire Wire Line
+	2950 950  2950 2200
+Connection ~ 2950 2200
+Wire Wire Line
+	5250 3350 4350 3350
+Wire Wire Line
+	4350 3350 4350 1000
+Wire Wire Line
+	4350 1000 1400 1000
+Wire Wire Line
+	1400 1000 1400 2300
+Connection ~ 1400 2300
+Wire Wire Line
+	5250 3450 4250 3450
+Wire Wire Line
+	4250 3450 4250 1050
+Wire Wire Line
+	4250 1050 3050 1050
+Wire Wire Line
+	3050 1050 3050 2300
+Connection ~ 3050 2300
+Wire Wire Line
+	5250 3550 4150 3550
+Wire Wire Line
+	4150 3550 4150 1100
+Wire Wire Line
+	4150 1100 1300 1100
+Wire Wire Line
+	1300 1100 1300 2400
+Connection ~ 1300 2400
+Wire Wire Line
+	4050 3650 4050 1150
+Wire Wire Line
+	4050 1150 3150 1150
+Wire Wire Line
+	3150 1150 3150 2400
+Connection ~ 3150 2400
+Wire Wire Line
+	4050 3650 5250 3650
+Wire Wire Line
+	5250 3750 3950 3750
+Wire Wire Line
+	3950 3750 3950 1200
+Wire Wire Line
+	3950 1200 1200 1200
+Wire Wire Line
+	1200 1200 1200 2500
+Connection ~ 1200 2500
+Wire Wire Line
+	3850 3850 3850 1250
+Wire Wire Line
+	3850 1250 3250 1250
+Wire Wire Line
+	3250 1250 3250 2500
+Connection ~ 3250 2500
+Wire Wire Line
+	3850 3850 5250 3850
+Wire Wire Line
+	5250 3950 3750 3950
+Wire Wire Line
+	3750 3950 3750 1300
+Wire Wire Line
+	3750 1300 1100 1300
+Wire Wire Line
+	1100 1300 1100 2600
+Connection ~ 1100 2600
+Wire Wire Line
+	5250 4050 3650 4050
+Wire Wire Line
+	3650 4050 3650 1350
+Wire Wire Line
+	3650 1350 3350 1350
+Wire Wire Line
+	3350 1350 3350 2600
+Connection ~ 3350 2600
+Wire Wire Line
+	5250 4150 3550 4150
+Wire Wire Line
+	3550 4150 3550 1400
+Wire Wire Line
+	3550 1400 1000 1400
+Wire Wire Line
+	1000 1400 1000 2700
+Connection ~ 1000 2700
+Wire Wire Line
+	1800 3250 1800 4350
+Connection ~ 1800 3250
+$Comp
+L Jumper:SolderJumper_2_Bridged JP1
+U 1 1 5FD3C241
+P 2300 4350
+F 0 "JP1" H 2300 4555 50  0000 C CNN
+F 1 "SolderJumper_2_Bridged" H 2300 4464 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 2300 4350 50  0001 C CNN
+F 3 "~" H 2300 4350 50  0001 C CNN
+	1    2300 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 4350 2150 4350
+$Comp
+L Jumper:SolderJumper_2_Bridged JP2
+U 1 1 5FD4567D
+P 2300 4650
+F 0 "JP2" H 2300 4855 50  0000 C CNN
+F 1 "SolderJumper_2_Bridged" H 2300 4764 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 2300 4650 50  0001 C CNN
+F 3 "~" H 2300 4650 50  0001 C CNN
+	1    2300 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 4050 1000 4650
+Wire Wire Line
+	1000 4650 2150 4650
+Connection ~ 1000 4050
+$Comp
+L power:GND #PWR07
+U 1 1 5FD58513
+P 2550 4850
+F 0 "#PWR07" H 2550 4600 50  0001 C CNN
+F 1 "GND" H 2555 4677 50  0000 C CNN
+F 2 "" H 2550 4850 50  0001 C CNN
+F 3 "" H 2550 4850 50  0001 C CNN
+	1    2550 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 4350 2550 4350
+Wire Wire Line
+	2550 4350 2550 4650
+Wire Wire Line
+	2450 4650 2550 4650
+Connection ~ 2550 4650
+Wire Wire Line
+	2550 4650 2550 4850
+$Comp
+L Jumper:SolderJumper_2_Bridged JP3
+U 1 1 5FD6B1AE
+P 3450 4750
+F 0 "JP3" H 3450 4955 50  0000 C CNN
+F 1 "SolderJumper_2_Bridged" H 3450 4864 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 3450 4750 50  0001 C CNN
+F 3 "~" H 3450 4750 50  0001 C CNN
+	1    3450 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 3550 2950 4750
+Connection ~ 2950 3550
+Wire Wire Line
+	2950 4750 3300 4750
+$Comp
+L power:+3.3V #PWR06
+U 1 1 5FD9485C
+P 4000 4650
+F 0 "#PWR06" H 4000 4500 50  0001 C CNN
+F 1 "+3.3V" V 4000 4900 50  0000 C CNN
+F 2 "" H 4000 4650 50  0000 C CNN
+F 3 "" H 4000 4650 50  0000 C CNN
+	1    4000 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 4750 4000 4750
+Wire Wire Line
+	4000 4750 4000 4650
+Text Label 2150 5950 1    50   ~ 0
+ECS_HOST
+Wire Wire Line
+	2150 5950 2150 5650
+Text Label 1550 5500 0    50   ~ 0
+ECS_CARD
+Wire Wire Line
+	1550 5500 1900 5500
+Wire Wire Line
+	2400 5500 2800 5500
+Wire Wire Line
+	9350 1450 9150 1450
+Connection ~ 9150 1450
+Text Label 1500 1550 3    50   ~ 0
+IRQ_HOST
+Text Label 4750 3150 0    50   ~ 0
+IRQ_CARD
+$Comp
+L Jumper:Jumper_3_Bridged12 JP5
+U 1 1 5FE1F979
+P 2150 6300
+F 0 "JP5" H 2150 6504 50  0000 C CNN
+F 1 "Jumper_3_Bridged12" H 2150 6413 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2150 6300 50  0001 C CNN
+F 3 "~" H 2150 6300 50  0001 C CNN
+	1    2150 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 6900 2150 6450
+Text Label 1550 6300 0    50   ~ 0
+IRQ_CARD
+Wire Wire Line
+	1550 6300 1900 6300
+Wire Wire Line
+	2400 6300 2800 6300
+Text Label 2800 6300 2    60   ~ 0
+IRQ_SHIELD
+$Comp
+L Connector:Barrel_Jack_Switch J5
+U 1 1 5FEBBFE3
+P 6050 1250
+F 0 "J5" H 6107 1567 50  0000 C CNN
+F 1 "Barrel_Jack_Switch" H 6107 1476 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 6100 1210 50  0001 C CNN
+F 3 "~" H 6100 1210 50  0001 C CNN
+	1    6050 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5FEBFC34
+P 6500 1450
+F 0 "#PWR0101" H 6500 1200 50  0001 C CNN
+F 1 "GND" H 6505 1277 50  0000 C CNN
+F 2 "" H 6500 1450 50  0001 C CNN
+F 3 "" H 6500 1450 50  0001 C CNN
+	1    6500 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0102
+U 1 1 5FEC00DA
+P 6500 950
+F 0 "#PWR0102" H 6500 800 50  0001 C CNN
+F 1 "+5V" V 6500 1150 50  0000 C CNN
+F 2 "" H 6500 950 50  0000 C CNN
+F 3 "" H 6500 950 50  0000 C CNN
+	1    6500 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 1150 6500 1150
+Wire Wire Line
+	6500 1150 6500 950 
+Wire Wire Line
+	6350 1250 6500 1250
+Wire Wire Line
+	6500 1250 6500 1350
+Wire Wire Line
+	6350 1350 6500 1350
+Connection ~ 6500 1350
+Wire Wire Line
+	6500 1350 6500 1450
+Text Label 5050 2650 1    60   ~ 0
+SCK
+Text Label 4650 3950 0    60   ~ 0
+MISO
+Text Label 4650 4050 0    60   ~ 0
+MOSI
+Text Label 2800 5500 2    60   ~ 0
+CS_SHIELD
+NoConn ~ 10200 1200
+NoConn ~ 10200 1300
+NoConn ~ 10200 1400
+NoConn ~ 9400 2500
+NoConn ~ 9400 2600
+NoConn ~ 9400 2700
+NoConn ~ 9400 2800
+NoConn ~ 9400 2900
+NoConn ~ 9400 3000
+NoConn ~ 9400 1800
+NoConn ~ 9400 2300
+NoConn ~ 10200 2100
+NoConn ~ 10200 2400
+NoConn ~ 10200 2500
+NoConn ~ 10200 2600
+NoConn ~ 10200 2700
+NoConn ~ 10200 2800
+NoConn ~ 10200 2900
+NoConn ~ 10200 3000
+Text Label 2150 6900 1    50   ~ 0
+IRQ_HOST
+$Comp
+L Connector:AVR-ISP-6 J6
+U 1 1 6008C6D0
+P 5700 5800
+F 0 "J6" H 5370 5896 50  0000 R CNN
+F 1 "AVR-ISP-6" H 5370 5805 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" V 5450 5850 50  0001 C CNN
+F 3 " ~" H 4425 5250 50  0001 C CNN
+	1    5700 5800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 6009494C
+P 5800 6300
+F 0 "#PWR0103" H 5800 6050 50  0001 C CNN
+F 1 "GND" H 5805 6127 50  0000 C CNN
+F 2 "" H 5800 6300 50  0001 C CNN
+F 3 "" H 5800 6300 50  0001 C CNN
+	1    5800 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0104
+U 1 1 6009509F
+P 5800 5200
+F 0 "#PWR0104" H 5800 5050 50  0001 C CNN
+F 1 "+5V" V 5800 5400 50  0000 C CNN
+F 2 "" H 5800 5200 50  0000 C CNN
+F 3 "" H 5800 5200 50  0000 C CNN
+	1    5800 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 5200 5800 5300
+Wire Wire Line
+	5800 6200 5800 6300
+Wire Wire Line
+	5300 5600 4750 5600
+Wire Wire Line
+	5300 5700 4750 5700
+Wire Wire Line
+	5300 5800 4750 5800
+Wire Wire Line
+	5300 5900 4750 5900
+Text Label 4750 5600 0    60   ~ 0
+MISO
+Text Label 4750 5700 0    60   ~ 0
+MOSI
+Text Label 4750 5800 0    60   ~ 0
+SCK
+Text Label 4750 5900 0    60   ~ 0
+CS_SHIELD
+Wire Wire Line
+	10200 2300 10550 2300
+Text Label 10550 2300 0    60   ~ 0
+RST
+Text Label 4750 2950 0    60   ~ 0
+RST
+$EndSCHEMATC

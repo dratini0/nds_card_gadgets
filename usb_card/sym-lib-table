@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name ds_card_extender)(type Legacy)(uri ${KIPRJMOD}/../ds_card_extender.lib)(options "")(descr ""))
+  (lib (name MAX3421E)(type Legacy)(uri ${KIPRJMOD}/MAX3421E.lib)(options "")(descr ""))
+)

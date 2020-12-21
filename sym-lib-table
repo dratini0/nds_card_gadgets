@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ds_card_extender)(type Legacy)(uri ${KIPRJMOD}/ds_card_extender.lib)(options "")(descr ""))
+)

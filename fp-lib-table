@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name ds_card_extender)(type KiCad)(uri ${KIPRJMOD}/ds_card_extender.pretty)(options "")(descr ""))
+)

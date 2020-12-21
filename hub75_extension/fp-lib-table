@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name ds_card_extender)(type KiCad)(uri ${KIPRJMOD}/../ds_card_extender.pretty)(options "")(descr ""))
+  (lib (name ebay_special_dcdc)(type KiCad)(uri ${KIPRJMOD}/ebay_special_dcdc.pretty)(options "")(descr ""))
+  (lib (name usb_indicator_light)(type KiCad)(uri /home/bala/projects/usb_indicator_light/usb_indicator_light.pretty)(options "")(descr ""))
+)
