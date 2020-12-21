@@ -1,5 +1,4 @@
 (sym_lib_table
   (lib (name ds_card_extender)(type Legacy)(uri ${KIPRJMOD}/../ds_card_extender.lib)(options "")(descr ""))
   (lib (name HUB75)(type Legacy)(uri ${KIPRJMOD}/HUB75.lib)(options "")(descr ""))
-  (lib (name Found_LED_panel)(type Legacy)(uri ${KIPRJMOD}/Found_LED_panel.lib)(options "")(descr ""))
 )
