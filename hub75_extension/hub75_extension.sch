@@ -937,8 +937,6 @@ Text Label 9550 4850 2    50   ~ 0
 E_OUT
 Text Label 9800 4600 2    50   ~ 0
 E_FB
-Wire Wire Line
-	8050 4200 8000 4200
 $Comp
 L Jumper:SolderJumper_2_Bridged JP28
 U 1 1 605386DB
@@ -950,21 +948,6 @@ F 3 "~" H 7850 4200 50  0001 C CNN
 	1    7850 4200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8050 3900 8050 4200
-$Comp
-L power:+5V #PWR044
-U 1 1 6058E71B
-P 8050 3900
-F 0 "#PWR044" H 8050 3750 50  0001 C CNN
-F 1 "+5V" H 8065 4073 50  0000 C CNN
-F 2 "" H 8050 3900 50  0001 C CNN
-F 3 "" H 8050 3900 50  0001 C CNN
-	1    8050 3900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5650 4200 5600 4200
 $Comp
 L Jumper:SolderJumper_2_Bridged JP25
 U 1 1 605CA003
@@ -977,26 +960,13 @@ F 3 "~" H 5450 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5650 3900 5650 4200
-$Comp
-L power:+5V #PWR042
-U 1 1 605CA009
-P 5650 3900
-F 0 "#PWR042" H 5650 3750 50  0001 C CNN
-F 1 "+5V" H 5665 4073 50  0000 C CNN
-F 2 "" H 5650 3900 50  0001 C CNN
-F 3 "" H 5650 3900 50  0001 C CNN
-	1    5650 3900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5700 4100 5700 4700
+	5700 4100 5700 4200
 Text Label 5600 4300 2    50   ~ 0
 E
 Wire Wire Line
 	5300 4300 5600 4300
 Wire Wire Line
-	8100 4100 8100 4700
+	8100 4100 8100 4200
 Wire Wire Line
 	7700 4300 8000 4300
 Text Label 8000 4300 2    50   ~ 0
@@ -1027,4 +997,14 @@ Text Label 3350 7000 2    50   ~ 0
 OE
 Wire Wire Line
 	3150 7000 3350 7000
+Wire Wire Line
+	5600 4200 5700 4200
+Connection ~ 5700 4200
+Wire Wire Line
+	5700 4200 5700 4700
+Wire Wire Line
+	8000 4200 8100 4200
+Connection ~ 8100 4200
+Wire Wire Line
+	8100 4200 8100 4700
 $EndSCHEMATC
