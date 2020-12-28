@@ -1,0 +1,504 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Screw_Terminal_01x02 J1
+U 1 1 60042763
+P 7100 4050
+F 0 "J1" H 7180 4042 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 7180 3951 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 7100 4050 50  0001 C CNN
+F 3 "~" H 7100 4050 50  0001 C CNN
+	1    7100 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR012
+U 1 1 60042769
+P 6800 3950
+F 0 "#PWR012" H 6800 3800 50  0001 C CNN
+F 1 "+12V" H 6815 4123 50  0000 C CNN
+F 2 "" H 6800 3950 50  0001 C CNN
+F 3 "" H 6800 3950 50  0001 C CNN
+	1    6800 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR015
+U 1 1 6004276F
+P 6800 4250
+F 0 "#PWR015" H 6800 4000 50  0001 C CNN
+F 1 "GND" H 6805 4077 50  0000 C CNN
+F 2 "" H 6800 4250 50  0001 C CNN
+F 3 "" H 6800 4250 50  0001 C CNN
+	1    6800 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 3950 6800 4050
+Wire Wire Line
+	6800 4050 6900 4050
+Wire Wire Line
+	6800 4250 6800 4150
+Wire Wire Line
+	6800 4150 6900 4150
+$Comp
+L Connector:Screw_Terminal_01x02 J2
+U 1 1 60042779
+P 7100 4800
+F 0 "J2" H 7180 4792 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 7180 4701 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 7100 4800 50  0001 C CNN
+F 3 "~" H 7100 4800 50  0001 C CNN
+	1    7100 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR018
+U 1 1 6004277F
+P 6800 4700
+F 0 "#PWR018" H 6800 4550 50  0001 C CNN
+F 1 "+12V" H 6815 4873 50  0000 C CNN
+F 2 "" H 6800 4700 50  0001 C CNN
+F 3 "" H 6800 4700 50  0001 C CNN
+	1    6800 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR021
+U 1 1 60042785
+P 6800 5000
+F 0 "#PWR021" H 6800 4750 50  0001 C CNN
+F 1 "GND" H 6805 4827 50  0000 C CNN
+F 2 "" H 6800 5000 50  0001 C CNN
+F 3 "" H 6800 5000 50  0001 C CNN
+	1    6800 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 4700 6800 4800
+Wire Wire Line
+	6800 4800 6900 4800
+Wire Wire Line
+	6800 5000 6800 4900
+Wire Wire Line
+	6800 4900 6900 4900
+$Comp
+L Connector:Barrel_Jack_Switch J3
+U 1 1 6004278F
+P 7200 5650
+F 0 "J3" H 6970 5692 50  0000 R CNN
+F 1 "Barrel_Jack_Switch" H 6970 5601 50  0000 R CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 7250 5610 50  0001 C CNN
+F 3 "~" H 7250 5610 50  0001 C CNN
+	1    7200 5650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR025
+U 1 1 60042795
+P 6800 5450
+F 0 "#PWR025" H 6800 5300 50  0001 C CNN
+F 1 "+12V" H 6815 5623 50  0000 C CNN
+F 2 "" H 6800 5450 50  0001 C CNN
+F 3 "" H 6800 5450 50  0001 C CNN
+	1    6800 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 5450 6800 5550
+Wire Wire Line
+	6800 5550 6900 5550
+$Comp
+L power:GND #PWR027
+U 1 1 6004279D
+P 6800 5850
+F 0 "#PWR027" H 6800 5600 50  0001 C CNN
+F 1 "GND" H 6805 5677 50  0000 C CNN
+F 2 "" H 6800 5850 50  0001 C CNN
+F 3 "" H 6800 5850 50  0001 C CNN
+	1    6800 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 5850 6800 5750
+Wire Wire Line
+	6800 5650 6900 5650
+Wire Wire Line
+	6800 5750 6900 5750
+Connection ~ 6800 5750
+Wire Wire Line
+	6800 5750 6800 5650
+$Comp
+L Connector:Screw_Terminal_01x02 J4
+U 1 1 600427A8
+P 8550 4050
+F 0 "J4" H 8630 4042 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 8630 3951 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 8550 4050 50  0001 C CNN
+F 3 "~" H 8550 4050 50  0001 C CNN
+	1    8550 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR016
+U 1 1 600427AE
+P 8250 4250
+F 0 "#PWR016" H 8250 4000 50  0001 C CNN
+F 1 "GND" H 8255 4077 50  0000 C CNN
+F 2 "" H 8250 4250 50  0001 C CNN
+F 3 "" H 8250 4250 50  0001 C CNN
+	1    8250 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 3950 8250 4050
+Wire Wire Line
+	8250 4050 8350 4050
+Wire Wire Line
+	8250 4250 8250 4150
+Wire Wire Line
+	8250 4150 8350 4150
+$Comp
+L Connector:Screw_Terminal_01x02 J5
+U 1 1 600427B8
+P 8550 4800
+F 0 "J5" H 8630 4792 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 8630 4701 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 8550 4800 50  0001 C CNN
+F 3 "~" H 8550 4800 50  0001 C CNN
+	1    8550 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR022
+U 1 1 600427BE
+P 8250 5000
+F 0 "#PWR022" H 8250 4750 50  0001 C CNN
+F 1 "GND" H 8255 4827 50  0000 C CNN
+F 2 "" H 8250 5000 50  0001 C CNN
+F 3 "" H 8250 5000 50  0001 C CNN
+	1    8250 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 4700 8250 4800
+Wire Wire Line
+	8250 4800 8350 4800
+Wire Wire Line
+	8250 5000 8250 4900
+Wire Wire Line
+	8250 4900 8350 4900
+$Comp
+L Connector:Barrel_Jack_Switch J6
+U 1 1 600427C8
+P 8650 5650
+F 0 "J6" H 8420 5692 50  0000 R CNN
+F 1 "Barrel_Jack_Switch" H 8420 5601 50  0000 R CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 8700 5610 50  0001 C CNN
+F 3 "~" H 8700 5610 50  0001 C CNN
+	1    8650 5650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 5450 8250 5550
+Wire Wire Line
+	8250 5550 8350 5550
+$Comp
+L power:GND #PWR028
+U 1 1 600427D0
+P 8250 5850
+F 0 "#PWR028" H 8250 5600 50  0001 C CNN
+F 1 "GND" H 8255 5677 50  0000 C CNN
+F 2 "" H 8250 5850 50  0001 C CNN
+F 3 "" H 8250 5850 50  0001 C CNN
+	1    8250 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 5850 8250 5750
+Wire Wire Line
+	8250 5650 8350 5650
+Wire Wire Line
+	8250 5750 8350 5750
+Connection ~ 8250 5750
+Wire Wire Line
+	8250 5750 8250 5650
+$Comp
+L Connector:Screw_Terminal_01x02 J7
+U 1 1 600427DB
+P 10000 4050
+F 0 "J7" H 10080 4042 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 10080 3951 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 10000 4050 50  0001 C CNN
+F 3 "~" H 10000 4050 50  0001 C CNN
+	1    10000 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR017
+U 1 1 600427E1
+P 9700 4250
+F 0 "#PWR017" H 9700 4000 50  0001 C CNN
+F 1 "GND" H 9705 4077 50  0000 C CNN
+F 2 "" H 9700 4250 50  0001 C CNN
+F 3 "" H 9700 4250 50  0001 C CNN
+	1    9700 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 3950 9700 4050
+Wire Wire Line
+	9700 4050 9800 4050
+Wire Wire Line
+	9700 4250 9700 4150
+Wire Wire Line
+	9700 4150 9800 4150
+$Comp
+L Connector:Screw_Terminal_01x02 J8
+U 1 1 600427EB
+P 10000 4800
+F 0 "J8" H 10080 4792 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 10080 4701 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 10000 4800 50  0001 C CNN
+F 3 "~" H 10000 4800 50  0001 C CNN
+	1    10000 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR023
+U 1 1 600427F1
+P 9700 5000
+F 0 "#PWR023" H 9700 4750 50  0001 C CNN
+F 1 "GND" H 9705 4827 50  0000 C CNN
+F 2 "" H 9700 5000 50  0001 C CNN
+F 3 "" H 9700 5000 50  0001 C CNN
+	1    9700 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 4700 9700 4800
+Wire Wire Line
+	9700 4800 9800 4800
+Wire Wire Line
+	9700 5000 9700 4900
+Wire Wire Line
+	9700 4900 9800 4900
+$Comp
+L power:+5V #PWR013
+U 1 1 600427FB
+P 8250 3950
+F 0 "#PWR013" H 8250 3800 50  0001 C CNN
+F 1 "+5V" H 8265 4123 50  0000 C CNN
+F 2 "" H 8250 3950 50  0001 C CNN
+F 3 "" H 8250 3950 50  0001 C CNN
+	1    8250 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR019
+U 1 1 60042801
+P 8250 4700
+F 0 "#PWR019" H 8250 4550 50  0001 C CNN
+F 1 "+5V" H 8265 4873 50  0000 C CNN
+F 2 "" H 8250 4700 50  0001 C CNN
+F 3 "" H 8250 4700 50  0001 C CNN
+	1    8250 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR020
+U 1 1 60042807
+P 9700 4700
+F 0 "#PWR020" H 9700 4550 50  0001 C CNN
+F 1 "+5V" H 9715 4873 50  0000 C CNN
+F 2 "" H 9700 4700 50  0001 C CNN
+F 3 "" H 9700 4700 50  0001 C CNN
+	1    9700 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR014
+U 1 1 6004280D
+P 9700 3950
+F 0 "#PWR014" H 9700 3800 50  0001 C CNN
+F 1 "+5V" H 9715 4123 50  0000 C CNN
+F 2 "" H 9700 3950 50  0001 C CNN
+F 3 "" H 9700 3950 50  0001 C CNN
+	1    9700 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR026
+U 1 1 60042813
+P 8250 5450
+F 0 "#PWR026" H 8250 5300 50  0001 C CNN
+F 1 "+5V" H 8265 5623 50  0000 C CNN
+F 2 "" H 8250 5450 50  0001 C CNN
+F 3 "" H 8250 5450 50  0001 C CNN
+	1    8250 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_B_Micro J9
+U 1 1 60042819
+P 10150 5650
+F 0 "J9" H 10207 6117 50  0000 C CNN
+F 1 "USB_B_Micro" H 10207 6026 50  0000 C CNN
+F 2 "Connector_USB:USB_Micro-B_Wuerth_629105150521" H 10300 5600 50  0001 C CNN
+F 3 "~" H 10300 5600 50  0001 C CNN
+	1    10150 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR024
+U 1 1 6004281F
+P 10600 5400
+F 0 "#PWR024" H 10600 5250 50  0001 C CNN
+F 1 "+5V" H 10615 5573 50  0000 C CNN
+F 2 "" H 10600 5400 50  0001 C CNN
+F 3 "" H 10600 5400 50  0001 C CNN
+	1    10600 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR029
+U 1 1 60042825
+P 10100 6100
+F 0 "#PWR029" H 10100 5850 50  0001 C CNN
+F 1 "GND" H 10105 5927 50  0000 C CNN
+F 2 "" H 10100 6100 50  0001 C CNN
+F 3 "" H 10100 6100 50  0001 C CNN
+	1    10100 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 6050 10050 6100
+Wire Wire Line
+	10050 6100 10100 6100
+Wire Wire Line
+	10100 6100 10150 6100
+Wire Wire Line
+	10150 6100 10150 6050
+Connection ~ 10100 6100
+NoConn ~ 10450 5650
+NoConn ~ 10450 5750
+NoConn ~ 10450 5850
+Wire Wire Line
+	10450 5450 10600 5450
+Wire Wire Line
+	10600 5450 10600 5400
+$Comp
+L Regulator_Linear:L7805 U?
+U 1 1 60063191
+P 2400 3350
+AR Path="/60063191" Ref="U?"  Part="1" 
+AR Path="/60017133/60063191" Ref="U2"  Part="1" 
+F 0 "U2" H 2400 3592 50  0000 C CNN
+F 1 "EBay special DCDC" H 2400 3501 50  0000 C CNN
+F 2 "ebay_special_dcdc:ebay_special_dcdc" H 2425 3200 50  0001 L CIN
+F 3 "" H 2400 3300 50  0001 C CNN
+	1    2400 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 60063197
+P 1900 3150
+AR Path="/60063197" Ref="#PWR?"  Part="1" 
+AR Path="/60017133/60063197" Ref="#PWR09"  Part="1" 
+F 0 "#PWR09" H 1900 3000 50  0001 C CNN
+F 1 "+12V" H 1915 3323 50  0000 C CNN
+F 2 "" H 1900 3150 50  0001 C CNN
+F 3 "" H 1900 3150 50  0001 C CNN
+	1    1900 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6006319D
+P 2800 3150
+AR Path="/6006319D" Ref="#PWR?"  Part="1" 
+AR Path="/60017133/6006319D" Ref="#PWR010"  Part="1" 
+F 0 "#PWR010" H 2800 3000 50  0001 C CNN
+F 1 "+5V" H 2815 3323 50  0000 C CNN
+F 2 "" H 2800 3150 50  0001 C CNN
+F 3 "" H 2800 3150 50  0001 C CNN
+	1    2800 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 3150 1900 3350
+Wire Wire Line
+	1900 3350 2100 3350
+Wire Wire Line
+	2800 3150 2800 3350
+Wire Wire Line
+	2800 3350 2700 3350
+$Comp
+L power:GND #PWR?
+U 1 1 600631A7
+P 2400 3700
+AR Path="/600631A7" Ref="#PWR?"  Part="1" 
+AR Path="/60017133/600631A7" Ref="#PWR011"  Part="1" 
+F 0 "#PWR011" H 2400 3450 50  0001 C CNN
+F 1 "GND" H 2405 3527 50  0000 C CNN
+F 2 "" H 2400 3700 50  0001 C CNN
+F 3 "" H 2400 3700 50  0001 C CNN
+	1    2400 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 3650 2400 3700
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 60074051
+P 2200 5500
+AR Path="/60074051" Ref="H?"  Part="1" 
+AR Path="/60017133/60074051" Ref="H1"  Part="1" 
+F 0 "H1" H 2300 5546 50  0000 L CNN
+F 1 "MountingHole" H 2300 5455 50  0000 L CNN
+F 2 "usb_indicator_light:JLC_TOOLING_HOLE" H 2200 5500 50  0001 C CNN
+F 3 "~" H 2200 5500 50  0001 C CNN
+	1    2200 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 60074057
+P 3200 5500
+AR Path="/60074057" Ref="H?"  Part="1" 
+AR Path="/60017133/60074057" Ref="H2"  Part="1" 
+F 0 "H2" H 3300 5546 50  0000 L CNN
+F 1 "MountingHole" H 3300 5455 50  0000 L CNN
+F 2 "usb_indicator_light:JLC_TOOLING_HOLE" H 3200 5500 50  0001 C CNN
+F 3 "~" H 3200 5500 50  0001 C CNN
+	1    3200 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 6007405D
+P 4200 5500
+AR Path="/6007405D" Ref="H?"  Part="1" 
+AR Path="/60017133/6007405D" Ref="H3"  Part="1" 
+F 0 "H3" H 4300 5546 50  0000 L CNN
+F 1 "MountingHole" H 4300 5455 50  0000 L CNN
+F 2 "usb_indicator_light:JLC_TOOLING_HOLE" H 4200 5500 50  0001 C CNN
+F 3 "~" H 4200 5500 50  0001 C CNN
+	1    4200 5500
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
