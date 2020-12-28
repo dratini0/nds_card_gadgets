@@ -406,11 +406,11 @@ C_OUT
 Text Label 8000 4500 2    50   ~ 0
 D_OUT
 Text Label 5900 4600 0    50   ~ 0
-CLK
+CLK_OUT
 Text Label 5900 4700 0    50   ~ 0
-OE
+OE_OUT
 Text Label 8000 4600 2    50   ~ 0
-LAT
+LAT_OUT
 Text Label 9550 2100 2    50   ~ 0
 B1_OUT
 Text Label 9550 1550 2    50   ~ 0
