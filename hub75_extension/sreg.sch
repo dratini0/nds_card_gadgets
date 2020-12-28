@@ -14,20 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 74xx:74HC595 U?
-U 1 1 60328D4C
-P 4200 2900
-AR Path="/60328D4C" Ref="U?"  Part="1" 
-AR Path="/602F3AD9/60328D4C" Ref="U1"  Part="1" 
-F 0 "U1" H 4200 3681 50  0000 C CNN
-F 1 "74HC595" H 4200 3590 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 4200 2900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 4200 2900 50  0001 C CNN
-F 4 "C5947" H 4200 2900 50  0001 C CNN "LCSC"
-	1    4200 2900
-	1    0    0    -1  
-$EndComp
-$Comp
 L Jumper:Jumper_3_Bridged12 JP?
 U 1 1 60328D52
 P 2500 2300
@@ -163,93 +149,92 @@ Wire Wire Line
 	4200 2000 4200 2300
 NoConn ~ 4600 3000
 NoConn ~ 4600 3100
-NoConn ~ 4600 3200
 $Comp
 L Jumper:Jumper_2_Bridged JP?
 U 1 1 60328D98
-P 5400 2500
+P 5650 2500
 AR Path="/60328D98" Ref="JP?"  Part="1" 
 AR Path="/602F3AD9/60328D98" Ref="JP11"  Part="1" 
-F 0 "JP11" H 5400 2695 50  0000 C CNN
-F 1 "Jumper_2_Bridged" H 5400 2604 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5400 2500 50  0001 C CNN
-F 3 "~" H 5400 2500 50  0001 C CNN
-	1    5400 2500
+F 0 "JP11" H 5650 2695 50  0000 C CNN
+F 1 "Jumper_2_Bridged" H 5650 2604 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5650 2500 50  0001 C CNN
+F 3 "~" H 5650 2500 50  0001 C CNN
+	1    5650 2500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5600 2500 5850 2500
+	5850 2500 6100 2500
 $Comp
 L Jumper:Jumper_2_Bridged JP?
 U 1 1 60328DA0
-P 5400 2800
+P 5650 2800
 AR Path="/60328DA0" Ref="JP?"  Part="1" 
 AR Path="/602F3AD9/60328DA0" Ref="JP12"  Part="1" 
-F 0 "JP12" H 5400 2995 50  0000 C CNN
-F 1 "Jumper_2_Bridged" H 5400 2904 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5400 2800 50  0001 C CNN
-F 3 "~" H 5400 2800 50  0001 C CNN
-	1    5400 2800
+F 0 "JP12" H 5650 2995 50  0000 C CNN
+F 1 "Jumper_2_Bridged" H 5650 2904 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5650 2800 50  0001 C CNN
+F 3 "~" H 5650 2800 50  0001 C CNN
+	1    5650 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Jumper:Jumper_2_Bridged JP?
 U 1 1 60328DA6
-P 5400 3100
+P 5650 3100
 AR Path="/60328DA6" Ref="JP?"  Part="1" 
 AR Path="/602F3AD9/60328DA6" Ref="JP13"  Part="1" 
-F 0 "JP13" H 5400 3295 50  0000 C CNN
-F 1 "Jumper_2_Bridged" H 5400 3204 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5400 3100 50  0001 C CNN
-F 3 "~" H 5400 3100 50  0001 C CNN
-	1    5400 3100
+F 0 "JP13" H 5650 3295 50  0000 C CNN
+F 1 "Jumper_2_Bridged" H 5650 3204 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5650 3100 50  0001 C CNN
+F 3 "~" H 5650 3100 50  0001 C CNN
+	1    5650 3100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Jumper:Jumper_2_Bridged JP?
 U 1 1 60328DAC
-P 5400 3400
+P 5650 3400
 AR Path="/60328DAC" Ref="JP?"  Part="1" 
 AR Path="/602F3AD9/60328DAC" Ref="JP14"  Part="1" 
-F 0 "JP14" H 5400 3595 50  0000 C CNN
-F 1 "Jumper_2_Bridged" H 5400 3504 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5400 3400 50  0001 C CNN
-F 3 "~" H 5400 3400 50  0001 C CNN
-	1    5400 3400
+F 0 "JP14" H 5650 3595 50  0000 C CNN
+F 1 "Jumper_2_Bridged" H 5650 3504 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5650 3400 50  0001 C CNN
+F 3 "~" H 5650 3400 50  0001 C CNN
+	1    5650 3400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5600 2800 5850 2800
+	5850 2800 6100 2800
 Wire Wire Line
-	5600 3100 5850 3100
+	5850 3100 6100 3100
 Wire Wire Line
-	5600 3400 5850 3400
+	5850 3400 6100 3400
 Wire Wire Line
-	4600 2500 5200 2500
+	4600 2500 5450 2500
 Wire Wire Line
-	4600 2600 5050 2600
+	4600 2600 5300 2600
 Wire Wire Line
-	5050 2600 5050 2800
+	5300 2600 5300 2800
 Wire Wire Line
-	5050 2800 5200 2800
+	5300 2800 5450 2800
 Wire Wire Line
-	4600 2700 4950 2700
+	4600 2700 5200 2700
 Wire Wire Line
-	4950 2700 4950 3100
+	5200 2700 5200 3100
 Wire Wire Line
-	4950 3100 5200 3100
+	5200 3100 5450 3100
 Wire Wire Line
-	4600 2800 4850 2800
+	4600 2800 5100 2800
 Wire Wire Line
-	4850 2800 4850 3400
+	5100 2800 5100 3400
 Wire Wire Line
-	4850 3400 5200 3400
+	5100 3400 5450 3400
 Wire Wire Line
 	4600 3400 4700 3400
 Wire Wire Line
-	4700 3400 4700 3950
+	4700 3400 4700 4100
 Wire Wire Line
-	4700 3950 4850 3950
+	4700 4100 4850 4100
 $Comp
 L power:GND #PWR?
 U 1 1 60328DC5
@@ -308,14 +293,14 @@ $EndComp
 $Comp
 L Connector:TestPoint TP?
 U 1 1 60328DDF
-P 4850 3950
+P 4850 4100
 AR Path="/60328DDF" Ref="TP?"  Part="1" 
 AR Path="/602F3AD9/60328DDF" Ref="TP1"  Part="1" 
-F 0 "TP1" V 4804 4138 50  0000 L CNN
-F 1 "TestPoint" V 4895 4138 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5050 3950 50  0001 C CNN
-F 3 "~" H 5050 3950 50  0001 C CNN
-	1    4850 3950
+F 0 "TP1" V 4804 4288 50  0000 L CNN
+F 1 "TestPoint" V 4895 4288 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5050 4100 50  0001 C CNN
+F 3 "~" H 5050 4100 50  0001 C CNN
+	1    4850 4100
 	0    1    1    0   
 $EndComp
 $Comp
@@ -366,13 +351,13 @@ Text HLabel 3650 2700 0    50   Input ~ 0
 CLK
 Text HLabel 3650 3000 0    50   Input ~ 0
 LAT
-Text HLabel 5850 2500 2    50   Output ~ 0
+Text HLabel 6100 2500 2    50   Output ~ 0
 A
-Text HLabel 5850 2800 2    50   Output ~ 0
+Text HLabel 6100 2800 2    50   Output ~ 0
 B
-Text HLabel 5850 3100 2    50   Output ~ 0
+Text HLabel 6100 3100 2    50   Output ~ 0
 C
-Text HLabel 5850 3400 2    50   Output ~ 0
+Text HLabel 6100 3400 2    50   Output ~ 0
 D
 $Comp
 L Device:C C?
@@ -475,24 +460,61 @@ NoConn ~ 4600 5850
 $Comp
 L Jumper:Jumper_2_Bridged JP?
 U 1 1 609589F5
-P 5400 3650
+P 5650 3650
 AR Path="/609589F5" Ref="JP?"  Part="1" 
 AR Path="/602F3AD9/609589F5" Ref="JP31"  Part="1" 
-F 0 "JP31" H 5400 3845 50  0000 C CNN
-F 1 "Jumper_2_Bridged" H 5400 3754 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5400 3650 50  0001 C CNN
-F 3 "~" H 5400 3650 50  0001 C CNN
-	1    5400 3650
+F 0 "JP31" H 5650 3845 50  0000 C CNN
+F 1 "Jumper_2_Bridged" H 5650 3754 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5650 3650 50  0001 C CNN
+F 3 "~" H 5650 3650 50  0001 C CNN
+	1    5650 3650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4600 2900 4750 2900
+	4600 2900 5000 2900
 Wire Wire Line
-	4750 2900 4750 3650
+	5000 2900 5000 3650
 Wire Wire Line
-	4750 3650 5200 3650
+	5000 3650 5450 3650
 Wire Wire Line
-	5600 3650 5850 3650
-Text HLabel 5850 3650 2    50   Output ~ 0
+	5850 3650 6100 3650
+Text HLabel 6100 3650 2    50   Output ~ 0
 E
+$Comp
+L Jumper:Jumper_2_Bridged JP?
+U 1 1 609A10D5
+P 5650 3900
+AR Path="/609A10D5" Ref="JP?"  Part="1" 
+AR Path="/602F3AD9/609A10D5" Ref="JP32"  Part="1" 
+F 0 "JP32" H 5650 4095 50  0000 C CNN
+F 1 "Jumper_2_Bridged" H 5650 4004 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5650 3900 50  0001 C CNN
+F 3 "~" H 5650 3900 50  0001 C CNN
+	1    5650 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC595 U?
+U 1 1 60328D4C
+P 4200 2900
+AR Path="/60328D4C" Ref="U?"  Part="1" 
+AR Path="/602F3AD9/60328D4C" Ref="U1"  Part="1" 
+F 0 "U1" H 4200 3681 50  0000 C CNN
+F 1 "74HC595" H 4200 3590 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 4200 2900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 4200 2900 50  0001 C CNN
+F 4 "C5947" H 4200 2900 50  0001 C CNN "LCSC"
+	1    4200 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 3200 4800 3200
+Wire Wire Line
+	4800 3200 4800 3900
+Wire Wire Line
+	4800 3900 5450 3900
+Text HLabel 6100 3900 2    50   Output ~ 0
+OE
+Wire Wire Line
+	5850 3900 6100 3900
 $EndSCHEMATC

@@ -743,7 +743,7 @@ LAT_FB
 Text Label 9800 6250 2    50   ~ 0
 OE_FB
 $Sheet
-S 2450 6400 700  600 
+S 2450 6400 700  700 
 U 602F3AD9
 F0 "sreg" 50
 F1 "sreg.sch" 50
@@ -756,6 +756,7 @@ F7 "B" O R 3150 6600 50
 F8 "C" O R 3150 6700 50 
 F9 "D" O R 3150 6800 50 
 F10 "E" O R 3150 6900 50 
+F11 "OE" O R 3150 7000 50 
 $EndSheet
 Wire Wire Line
 	2450 6500 2250 6500
@@ -1022,4 +1023,8 @@ Wire Wire Line
 	3150 6900 3350 6900
 Text Label 3350 6900 2    50   ~ 0
 E
+Text Label 3350 7000 2    50   ~ 0
+OE
+Wire Wire Line
+	3150 7000 3350 7000
 $EndSCHEMATC
