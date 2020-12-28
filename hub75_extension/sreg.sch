@@ -375,4 +375,102 @@ Text HLabel 5850 3100 2    50   Output ~ 0
 C
 Text HLabel 5850 3400 2    50   Output ~ 0
 D
+$Comp
+L Device:C C?
+U 1 1 60842BC8
+P 3200 5000
+AR Path="/60842BC8" Ref="C?"  Part="1" 
+AR Path="/602F3AD9/60842BC8" Ref="C2"  Part="1" 
+F 0 "C2" H 3315 5046 50  0000 L CNN
+F 1 "100n" H 3315 4955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3238 4850 50  0001 C CNN
+F 3 "~" H 3200 5000 50  0001 C CNN
+F 4 "C14663" H 3200 5000 50  0001 C CNN "LCSC"
+	1    3200 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 60842BCE
+P 3200 4850
+AR Path="/60842BCE" Ref="#PWR?"  Part="1" 
+AR Path="/602F3AD9/60842BCE" Ref="#PWR052"  Part="1" 
+F 0 "#PWR052" H 3200 4700 50  0001 C CNN
+F 1 "VCC" H 3215 5023 50  0000 C CNN
+F 2 "" H 3200 4850 50  0001 C CNN
+F 3 "" H 3200 4850 50  0001 C CNN
+	1    3200 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60842BD4
+P 3200 5150
+AR Path="/60842BD4" Ref="#PWR?"  Part="1" 
+AR Path="/602F3AD9/60842BD4" Ref="#PWR053"  Part="1" 
+F 0 "#PWR053" H 3200 4900 50  0001 C CNN
+F 1 "GND" H 3205 4977 50  0000 C CNN
+F 2 "" H 3200 5150 50  0001 C CNN
+F 3 "" H 3200 5150 50  0001 C CNN
+	1    3200 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC595 U?
+U 1 1 60847B05
+P 4200 5350
+AR Path="/60847B05" Ref="U?"  Part="1" 
+AR Path="/602F3AD9/60847B05" Ref="U3"  Part="1" 
+F 0 "U3" H 4200 6131 50  0000 C CNN
+F 1 "NF" H 4200 6040 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 4200 5350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 4200 5350 50  0001 C CNN
+F 4 "C5947" H 4200 5350 50  0001 C CNN "LCSC"
+	1    4200 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 60847B0B
+P 4200 4450
+AR Path="/60847B0B" Ref="#PWR?"  Part="1" 
+AR Path="/602F3AD9/60847B0B" Ref="#PWR054"  Part="1" 
+F 0 "#PWR054" H 4200 4300 50  0001 C CNN
+F 1 "VCC" H 4215 4623 50  0000 C CNN
+F 2 "" H 4200 4450 50  0001 C CNN
+F 3 "" H 4200 4450 50  0001 C CNN
+	1    4200 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 4450 4200 4750
+$Comp
+L power:GND #PWR?
+U 1 1 60847B12
+P 4200 6150
+AR Path="/60847B12" Ref="#PWR?"  Part="1" 
+AR Path="/602F3AD9/60847B12" Ref="#PWR055"  Part="1" 
+F 0 "#PWR055" H 4200 5900 50  0001 C CNN
+F 1 "GND" H 4205 5977 50  0000 C CNN
+F 2 "" H 4200 6150 50  0001 C CNN
+F 3 "" H 4200 6150 50  0001 C CNN
+	1    4200 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 6050 4200 6150
+NoConn ~ 3800 4950
+NoConn ~ 3800 5150
+NoConn ~ 3800 5250
+NoConn ~ 3800 5450
+NoConn ~ 3800 5550
+NoConn ~ 4600 4950
+NoConn ~ 4600 5050
+NoConn ~ 4600 5150
+NoConn ~ 4600 5250
+NoConn ~ 4600 5350
+NoConn ~ 4600 5450
+NoConn ~ 4600 5550
+NoConn ~ 4600 5650
+NoConn ~ 4600 5850
 $EndSCHEMATC
